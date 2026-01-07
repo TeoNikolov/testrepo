@@ -1,0 +1,7 @@
+core-sdk:
+  - changed-files:
+    - any-glob-to-any-file: 'ml/package_a/**/*'
+
+motion-toolkit:
+  - changed-files:
+    - any-glob-to-any-file: 'ml/package_b/**/*'
