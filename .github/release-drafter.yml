@@ -17,6 +17,7 @@ template: |
   No summary provided.
 
   # Changelog
+  Any changes not specific to a package are listed here.
   $CHANGES
   
   **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...$NEW_TAG
