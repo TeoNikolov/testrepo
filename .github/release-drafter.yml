@@ -1,4 +1,4 @@
-# We use placeholder name/tag because CalVer is not supported by release drafter. 
+# We use placeholder name/tag because CalVer is not supported by Release Drafter. 
 # Maybe it can be automated, but for now we will type the CalVer (YY.MM.XX) manually.
 name-template: 'DRAFT: INSERT_VERSION_HERE'
 tag-template: 'DRAFT_VERSION' 
@@ -13,6 +13,9 @@ categories:
       - 'package-motion-toolkit'
 
 template: |
+  # Summary
+  No summary provided.
+
   # Changelog
   ## General changes
   $CHANGES
