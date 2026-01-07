@@ -1,0 +1,19 @@
+# We use placeholder name/tag because CalVer is not supported by release drafter. 
+# We will type the CalVer (YY.MM.XX) manually.
+name-template: 'DRAFT: INSERT_VERSION_HERE' 
+tag-template: 'DRAFT_VERSION' 
+
+categories:
+  - title: 'Package - CoreSDK'
+    labels:
+      - 'core-sdk'
+
+  - title: 'Package - Motion Toolkit'
+    labels:
+      - 'motion-toolkit'
+
+template: |
+  ## What's Changed
+  $CHANGES
+  
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...$NEW_TAG

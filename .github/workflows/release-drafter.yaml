@@ -1,0 +1,21 @@
+name: Release Drafter
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write  # Required to create/edit Releases
+  pull-requests: read
+
+jobs:
+  update_release_draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: release-drafter/release-drafter@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # Disable release-drafter's built-in labeler, we have our own simple one
+          disable-autolabeler: true
