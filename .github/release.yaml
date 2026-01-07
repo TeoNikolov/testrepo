@@ -1,0 +1,17 @@
+# This template auto-populates when "Generate release notes" is clicked
+changelog:
+  header: |
+    ## 📝 Key changes
+    
+    ### CoreSDK
+    - [Describe changes or write "No changes"]
+    
+    ### Motion Toolkit
+    - [Describe changes or write "No changes"]
+
+    ---
+    ## 🚀 What's Changed
+  categories:
+    - title: "" # Keeping this empty ensures PRs aren't split into categories
+      labels:
+        - "*"
