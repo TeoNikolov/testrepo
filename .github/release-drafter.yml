@@ -17,9 +17,6 @@ template: |
   No summary provided.
 
   # Changelog
-  $CATEGORIES
-
-  ---
   $CHANGES
   
   **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/compare/$PREVIOUS_TAG...$NEW_TAG
